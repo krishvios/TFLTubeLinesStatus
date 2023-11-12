@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "764662FF-32CA-4533-882F-E600E0837298"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B93E781A-1652-4BB2-8722-E79803054916"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubeLinesStatus/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getData(endPoint:parameters:type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B93E781A-1652-4BB2-8722-E79803054916 - e4da4f14f8249be5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1468">
+               </Location>
+               <Location
+                  uuid = "B93E781A-1652-4BB2-8722-E79803054916 - e4da4f14f82497c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1436">
+               </Location>
+               <Location
+                  uuid = "B93E781A-1652-4BB2-8722-E79803054916 - e4da4f14f8249641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubeLinesStatus/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getData(endPoint:parameters:type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891 - 23a04c5f0b9193a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "2584">
+               </Location>
+               <Location
+                  uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891 - 23a04c5f0b9193a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891 - 23a04c5f0b9193a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "2712">
+               </Location>
+               <Location
+                  uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891 - 23a04c5f0b919a5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891 - 23a04c5f0b919a5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891 - 23a04c5f0b919ac1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "F172FC82-B705-4F43-AEA3-2D7FE0B19891 - 23a04c5f0b919ac1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in closure #2 ((Swift.Result&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in TubeLinesStatus.NetworkManager.getData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endPoint: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, type: &#x3c4;_0_0.Type) -&gt; Combine.Future&lt;Swift.Array&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF280975-D23A-4A27-9B92-97C7B37C7DC2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubeLinesStatus/View/ServiceStatusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "AF280975-D23A-4A27-9B92-97C7B37C7DC2 - c83859e8a6a5ab4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TubeLinesStatus.Line&gt;, TubeLinesStatus.Line, &lt;&lt;opaque return type of SwiftUI.View.redacted(reason: SwiftUI.RedactionReasons) -&gt; some&gt;&gt;.0&gt; in TubeLinesStatus.ServiceStatusView.body.getter : some"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/View/ServiceStatusView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "AF280975-D23A-4A27-9B92-97C7B37C7DC2 - a4b04919cd6d2f7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TubeLinesStatus.Line) -&gt; &lt;&lt;opaque return type of SwiftUI.View.redacted(reason: SwiftUI.RedactionReasons) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TubeLinesStatus.Line&gt;, TubeLinesStatus.Line, &lt;&lt;opaque return type of SwiftUI.View.redacted(reason: SwiftUI.RedactionReasons) -&gt; some&gt;&gt;.0&gt; in TubeLinesStatus.ServiceStatusView.body.getter : some"
+                  moduleName = "TubeLinesStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anskvivek/Documents/Assessment/TubeLinesStatus/TubeLinesStatus/View/ServiceStatusView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA901C9C-ADE3-4E97-8C3D-51AB51604A9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubeLinesStatus/View/ServiceStatusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAC4CCA3-0C32-4A4B-B003-99AC0BC36B25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubeLinesStatus/View/ServiceStatusRow.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93F6D44C-2AF9-4164-A4E2-EB1649C73167"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubeLinesStatus/View/ServiceStatusRow.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
