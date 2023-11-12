@@ -20,33 +20,15 @@
 		C27280FD2B00085000214F0A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27280FC2B00085000214F0A /* String+Extensions.swift */; };
 		C27280FF2B00087F00214F0A /* TubeLineStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27280FE2B00087F00214F0A /* TubeLineStatusViewModel.swift */; };
 		C27281082B0035EA00214F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281072B0035EA00214F0A /* Constants.swift */; };
-		C27281262B00EA1C00214F0A /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281252B00EA1C00214F0A /* AppConstant.swift */; };
 		C27281312B011E8400214F0A /* Johnston ITC Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C272812E2B011E8400214F0A /* Johnston ITC Regular.ttf */; };
 		C27281322B011E8400214F0A /* johnston-itc-std-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C272812F2B011E8400214F0A /* johnston-itc-std-bold.otf */; };
 		C27281332B011E8400214F0A /* johnstonitcstd-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C27281302B011E8400214F0A /* johnstonitcstd-medium.otf */; };
 		C27281352B01214C00214F0A /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281342B01214C00214F0A /* Line.swift */; };
 		C27281422B01232900214F0A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281372B01232900214F0A /* NetworkManager.swift */; };
-		C27281432B01232900214F0A /* GenericCallConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813A2B01232900214F0A /* GenericCallConfig.swift */; };
-		C27281442B01232900214F0A /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813B2B01232900214F0A /* RequestBuilder.swift */; };
-		C27281452B01232900214F0A /* GenericErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813C2B01232900214F0A /* GenericErrorMapper.swift */; };
-		C27281462B01232900214F0A /* GenericResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813D2B01232900214F0A /* GenericResponseParser.swift */; };
-		C27281472B01232900214F0A /* AppAPIErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813E2B01232900214F0A /* AppAPIErrorMapper.swift */; };
-		C27281482B01232900214F0A /* AppRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813F2B01232900214F0A /* AppRequestBuilder.swift */; };
-		C27281492B01232900214F0A /* AppAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281402B01232900214F0A /* AppAPICall.swift */; };
-		C272814A2B01232900214F0A /* AppRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281412B01232900214F0A /* AppRequest.swift */; };
 		C272814B2B012E3500214F0A /* TubeLineStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27280FE2B00087F00214F0A /* TubeLineStatusViewModel.swift */; };
 		C272814C2B012E3900214F0A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281372B01232900214F0A /* NetworkManager.swift */; };
-		C272814D2B012E3C00214F0A /* GenericCallConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813A2B01232900214F0A /* GenericCallConfig.swift */; };
-		C272814E2B012E3F00214F0A /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813B2B01232900214F0A /* RequestBuilder.swift */; };
-		C27281502B012E4200214F0A /* GenericErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813C2B01232900214F0A /* GenericErrorMapper.swift */; };
-		C27281512B012E4700214F0A /* GenericResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813D2B01232900214F0A /* GenericResponseParser.swift */; };
-		C27281522B012E4B00214F0A /* AppAPIErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813E2B01232900214F0A /* AppAPIErrorMapper.swift */; };
-		C27281532B012E5000214F0A /* AppRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281412B01232900214F0A /* AppRequest.swift */; };
-		C27281542B012E5000214F0A /* AppRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272813F2B01232900214F0A /* AppRequestBuilder.swift */; };
-		C27281552B012E5000214F0A /* AppAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281402B01232900214F0A /* AppAPICall.swift */; };
 		C27281562B012E6200214F0A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27280FC2B00085000214F0A /* String+Extensions.swift */; };
 		C27281572B012E6800214F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281072B0035EA00214F0A /* Constants.swift */; };
-		C27281582B012E6B00214F0A /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27281252B00EA1C00214F0A /* AppConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,20 +65,11 @@
 		C27280FC2B00085000214F0A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		C27280FE2B00087F00214F0A /* TubeLineStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewModel.swift; sourceTree = "<group>"; };
 		C27281072B0035EA00214F0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		C27281252B00EA1C00214F0A /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		C272812E2B011E8400214F0A /* Johnston ITC Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Johnston ITC Regular.ttf"; sourceTree = "<group>"; };
 		C272812F2B011E8400214F0A /* johnston-itc-std-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "johnston-itc-std-bold.otf"; sourceTree = "<group>"; };
 		C27281302B011E8400214F0A /* johnstonitcstd-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "johnstonitcstd-medium.otf"; sourceTree = "<group>"; };
 		C27281342B01214C00214F0A /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		C27281372B01232900214F0A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		C272813A2B01232900214F0A /* GenericCallConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCallConfig.swift; sourceTree = "<group>"; };
-		C272813B2B01232900214F0A /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
-		C272813C2B01232900214F0A /* GenericErrorMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericErrorMapper.swift; sourceTree = "<group>"; };
-		C272813D2B01232900214F0A /* GenericResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericResponseParser.swift; sourceTree = "<group>"; };
-		C272813E2B01232900214F0A /* AppAPIErrorMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAPIErrorMapper.swift; sourceTree = "<group>"; };
-		C272813F2B01232900214F0A /* AppRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRequestBuilder.swift; sourceTree = "<group>"; };
-		C27281402B01232900214F0A /* AppAPICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAPICall.swift; sourceTree = "<group>"; };
-		C27281412B01232900214F0A /* AppRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,7 +190,6 @@
 			children = (
 				C27280FC2B00085000214F0A /* String+Extensions.swift */,
 				C27281072B0035EA00214F0A /* Constants.swift */,
-				C27281252B00EA1C00214F0A /* AppConstant.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -244,32 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				C27281372B01232900214F0A /* NetworkManager.swift */,
-				C27281382B01232900214F0A /* API Call */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		C27281382B01232900214F0A /* API Call */ = {
-			isa = PBXGroup;
-			children = (
-				C27281392B01232900214F0A /* Generics */,
-				C272813E2B01232900214F0A /* AppAPIErrorMapper.swift */,
-				C272813F2B01232900214F0A /* AppRequestBuilder.swift */,
-				C27281402B01232900214F0A /* AppAPICall.swift */,
-				C27281412B01232900214F0A /* AppRequest.swift */,
-			);
-			path = "API Call";
-			sourceTree = "<group>";
-		};
-		C27281392B01232900214F0A /* Generics */ = {
-			isa = PBXGroup;
-			children = (
-				C272813A2B01232900214F0A /* GenericCallConfig.swift */,
-				C272813B2B01232900214F0A /* RequestBuilder.swift */,
-				C272813C2B01232900214F0A /* GenericErrorMapper.swift */,
-				C272813D2B01232900214F0A /* GenericResponseParser.swift */,
-			);
-			path = Generics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,21 +355,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C27281422B01232900214F0A /* NetworkManager.swift in Sources */,
-				C27281432B01232900214F0A /* GenericCallConfig.swift in Sources */,
-				C27281492B01232900214F0A /* AppAPICall.swift in Sources */,
 				C27280FD2B00085000214F0A /* String+Extensions.swift in Sources */,
-				C27281452B01232900214F0A /* GenericErrorMapper.swift in Sources */,
 				C201FD932AFA87130075110A /* TubeLineStatusView.swift in Sources */,
-				C27281262B00EA1C00214F0A /* AppConstant.swift in Sources */,
 				C27280F52B00074800214F0A /* TubeLineStatusRow.swift in Sources */,
 				C27281352B01214C00214F0A /* Line.swift in Sources */,
-				C27281442B01232900214F0A /* RequestBuilder.swift in Sources */,
 				C27280FF2B00087F00214F0A /* TubeLineStatusViewModel.swift in Sources */,
-				C27281482B01232900214F0A /* AppRequestBuilder.swift in Sources */,
-				C27281472B01232900214F0A /* AppAPIErrorMapper.swift in Sources */,
-				C272814A2B01232900214F0A /* AppRequest.swift in Sources */,
 				C201FD912AFA87130075110A /* TubeLinesStatusApp.swift in Sources */,
-				C27281462B01232900214F0A /* GenericResponseParser.swift in Sources */,
 				C27281082B0035EA00214F0A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,20 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27281552B012E5000214F0A /* AppAPICall.swift in Sources */,
-				C272814E2B012E3F00214F0A /* RequestBuilder.swift in Sources */,
-				C27281532B012E5000214F0A /* AppRequest.swift in Sources */,
 				C272814C2B012E3900214F0A /* NetworkManager.swift in Sources */,
 				C27281562B012E6200214F0A /* String+Extensions.swift in Sources */,
-				C272814D2B012E3C00214F0A /* GenericCallConfig.swift in Sources */,
-				C27281502B012E4200214F0A /* GenericErrorMapper.swift in Sources */,
 				C27281572B012E6800214F0A /* Constants.swift in Sources */,
-				C27281542B012E5000214F0A /* AppRequestBuilder.swift in Sources */,
 				C26CF48D2B01471400CA590A /* Line.swift in Sources */,
-				C27281582B012E6B00214F0A /* AppConstant.swift in Sources */,
-				C27281522B012E4B00214F0A /* AppAPIErrorMapper.swift in Sources */,
 				C272814B2B012E3500214F0A /* TubeLineStatusViewModel.swift in Sources */,
-				C27281512B012E4700214F0A /* GenericResponseParser.swift in Sources */,
 				C201FDA22AFA87150075110A /* TubeLinesStatusTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
