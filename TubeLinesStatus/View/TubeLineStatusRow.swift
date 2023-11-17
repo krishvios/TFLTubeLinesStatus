@@ -61,5 +61,5 @@ struct TubeLineStatusRow: View {
 }
 
 #Preview {
-    TubeLineStatusRow(line: Line(id: "10", name: "Circle", lineStatuses: [LineStatus(statusSeverity: 4, statusSeverityDescription: "Good Service", reason: "")]))
+    TubeLineStatusRow(line: Line(name: "Circle", lineStatuses: [LineStatus(statusSeverity: 4, statusSeverityDescription: "Good Service", reason: "")]))
 }
