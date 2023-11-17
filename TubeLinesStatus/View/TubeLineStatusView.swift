@@ -23,14 +23,14 @@ struct TubeLineStatusView: View {
             .listStyle(.plain)
             .environment(\.defaultMinListRowHeight, 80) //minimum row height
             .padding(.leading, 10)
-            .task {
+            .task(priority: .background, {
                 print("\(#file) \(#function) \(#line)")
                 isLoading = true
                 viewModel.getData()
                 DispatchQueue.main.asyncAfter(deadline: .now()+1, execute: {
                     isLoading = false
                 })
-            }
+            })
             
             if isLoading {
                 LoadingView()
