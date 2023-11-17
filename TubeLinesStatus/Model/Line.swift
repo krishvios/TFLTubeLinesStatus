@@ -7,26 +7,17 @@
 
 import Foundation
 
-struct LineStatus : Codable{
+struct LineStatus : Codable, Equatable {
     let statusSeverity : Int
     let statusSeverityDescription : String
     let reason : String?
 }
 
-struct Line : Codable, Identifiable, Hashable {
-    let id : String
+struct Line : Codable, Hashable {
     let name : String
     let lineStatuses : [LineStatus]
     
-    var identifier: String {
-        return UUID().uuidString
-    }
-    
-    public func hash(into hasher: inout Hasher) {
-        return hasher.combine(identifier)
-    }
-    
-    public static func == (lhs: Line, rhs: Line) -> Bool {
-        return lhs.identifier == rhs.identifier
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
     }
 }
