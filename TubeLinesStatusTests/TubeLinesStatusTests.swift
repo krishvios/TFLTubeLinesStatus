@@ -47,7 +47,6 @@ final class TubeLinesStatusTests: XCTestCase {
 
         wait(for: [expectation], timeout: 1)
         
-        XCTAssertEqual(self.lines?.first?.id, "bakerloo")
         XCTAssertEqual(self.lines?.first?.name, "Bakerloo")
         XCTAssertEqual(self.lines?.first?.lineStatuses.first?.statusSeverity, 10)
         XCTAssertEqual(self.lines?.first?.lineStatuses.first?.statusSeverityDescription, "Good Service")
@@ -57,7 +56,7 @@ final class TubeLinesStatusTests: XCTestCase {
 
 class MockNetworkManager: NetworkManager {
     
-    let mockLine: Line = Line(id: "bakerloo", name: "Bakerloo", lineStatuses: [LineStatus(statusSeverity: 10, statusSeverityDescription: "Good Service", reason: "")])
+    let mockLine: Line = Line(name: "Bakerloo", lineStatuses: [LineStatus(statusSeverity: 10, statusSeverityDescription: "Good Service", reason: "")])
 
     func fetchData(id: String) -> AnyPublisher<Line, Error> {
             Future { promise in
